@@ -1,12 +1,11 @@
 import {AppNavigation} from '@/components/app-navigation'
 import {AppFooter} from '@/components/app-footer'
 import {HeroSection}  from '@/components/hero-section'
-import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='absolute'>
-      <div className='relative flex flex-column gap-6 items-center content-center'>
+    <main className=''>
+      <div className='flex flex-col gap-3 items-center h-full'>
         <AppNavigation/>
         <HeroSection/>
         <AppFooter/>
