@@ -1,8 +1,9 @@
 import Image from "next/image"
 
 export function AppFooter() {
+  const current_year = new Date().getFullYear();
   return(
-  <div className="flex flex-col gap-3 items-center">
+  <div className="flex flex-col sticky bottom-12 items-center">
       <div className="flex flex-row gap-3">
         <div>
         <a href="https://www.github.com/yegayv">
@@ -16,7 +17,7 @@ export function AppFooter() {
       </div>
       </div>
     <div>
-      <p>&copy;2024. All rights reserved.</p>
+      <p>&copy;{current_year}. Yegay V. All rights reserved.</p>
     </div>
     </div>
   )

@@ -5,11 +5,11 @@ import {HeroSection}  from '@/components/hero-section'
 export default function Home() {
   return (
     <main className=''>
-      <div className='flex flex-col gap-3 items-center h-full'>
         <AppNavigation/>
+      <div className='flex flex-col gap-3 items-center h-full min-h-screen mt-4'>
         <HeroSection/>
-        <AppFooter/>
       </div>
+        <AppFooter/>
     </main>
   )
 }
