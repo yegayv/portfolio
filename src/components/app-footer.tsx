@@ -3,7 +3,7 @@ import Image from "next/image"
 export function AppFooter() {
   const current_year = new Date().getFullYear();
   return(
-  <div className="flex flex-col sticky bottom-12 items-center">
+  <div className="flex flex-col sticky bottom-0 items-center bg-black/40 p-10">
       <div className="flex flex-row gap-3">
         <div>
         <a href="https://www.github.com/yegayv">
